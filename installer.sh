@@ -198,3 +198,4 @@ systemctl start hassio-supervisor.service
 echo "[Info] Install cli 'ha'"
 curl -sL ${URL_HA} > "${PREFIX}/bin/ha"
 chmod a+x "${PREFIX}/bin/ha"
+echo "[Info] Install done"
